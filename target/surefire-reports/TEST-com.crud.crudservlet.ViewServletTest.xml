@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.002" errors="1" skipped="0" tests="1" name="com.crud.crudservlet.ViewServletTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\jdk1.6.0_32\jre\bin"/>
+    <property name="java.vm.version" value="20.7-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\1122159\Desktop\CRUD_New\CrudServlet"/>
+    <property name="java.runtime.version" value="1.6.0_32-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\jdk1.6.0_32\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\1122159\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\1122159\Desktop\CRUD_New\CrudServlet\target\cobertura\cobertura.ser"/>
+    <property name="classworlds.conf" value="D:\Sudipta_16-Aug-2017\NetbeansIDE-7.3\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\jdk1.6.0_32\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\RSA SecurID Token Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\Sudipta_16-Aug-2017\apache-ant-1.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\WebEx\Productivity Tools;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\1122159"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="1122159"/>
+    <property name="java.class.path" value="D:\Sudipta_16-Aug-2017\NetbeansIDE-7.3\netbeans\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\jdk1.6.0_32\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_32"/>
+    <property name="java.ext.dirs" value="D:\jdk1.6.0_32\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\jdk1.6.0_32\jre\lib\resources.jar;D:\jdk1.6.0_32\jre\lib\rt.jar;D:\jdk1.6.0_32\jre\lib\sunrsasign.jar;D:\jdk1.6.0_32\jre\lib\jsse.jar;D:\jdk1.6.0_32\jre\lib\jce.jar;D:\jdk1.6.0_32\jre\lib\charsets.jar;D:\jdk1.6.0_32\jre\lib\modules\jdk.boot.jar;D:\jdk1.6.0_32\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="D:\Sudipta_16-Aug-2017\NetbeansIDE-7.3\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="C:\Users\1122159\Desktop\CRUD_New\CrudServlet\target\generated-classes\cobertura"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.001" classname="com.crud.crudservlet.ViewServletTest" name="testDoGet">
+    <error message="Instruction type does not match stack map
+Exception Details:
+  Location:
+    com/crud/crudservlet/ViewServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V @129: aload
+  Reason:
+    Type integer (current frame, locals[3]) is not assignable to &apos;java/io/PrintWriter&apos; (stack map, locals[3])
+  Current Frame:
+    bci: @129
+    flags: { }
+    locals: { &apos;com/crud/crudservlet/ViewServlet&apos;, &apos;javax/servlet/http/HttpServletRequest&apos;, &apos;javax/servlet/http/HttpServletResponse&apos;, integer, integer, &apos;java/io/PrintWriter&apos;, &apos;java/util/List&apos;, &apos;java/util/Iterator&apos; }
+    stack: { }
+  Stackmap Frame:
+    bci: @129
+    flags: { }
+    locals: { &apos;com/crud/crudservlet/ViewServlet&apos;, &apos;javax/servlet/http/HttpServletRequest&apos;, &apos;javax/servlet/http/HttpServletResponse&apos;, &apos;java/io/PrintWriter&apos;, &apos;java/util/List&apos;, &apos;java/util/Iterator&apos; }
+    stack: { }
+  Bytecode:
+    0000000: 033e 11ff ff36 0412 0e11 0011 b800 142c
+    0000010: 1223 b900 2902 0012 0e11 0012 b800 142c
+    0000020: b900 2d01 003a 0512 0e11 0013 b800 1419
+    0000030: 0512 2fb6 0034 120e 1100 14b8 0014 1905
+    0000040: 1236 b600 3412 0e11 0016 b800 14b8 003c
+    0000050: 3a06 120e 1100 18b8 0014 1905 123e b600
+    0000060: 4112 0e11 0019 b800 1419 0512 43b6 0041
+    0000070: 120e 1100 1ab8 0014 1906 b900 4901 003a
+    0000080: 0719 07b9 004f 0100 1100 1a3e 1100 0036
+    0000090: 0499 0092 120e 1d15 0404 b800 5311 ffff
+    00000a0: 3604 1907 b900 5701 00c0 0059 3a08 120e
+    00000b0: 1100 1bb8 0014 1905 bb00 5b59 b700 5c12
+    00000c0: 5eb6 0062 1908 b600 66b6 0062 1268 b600
+    00000d0: 6219 08b6 006b b600 6212 68b6 0062 1908
+    00000e0: b600 6eb6 0062 1268 b600 6219 08b6 0071
+    00000f0: b600 6212 73b6 0062 1908 b600 66b6 0062
+    0000100: 1275 b600 6219 08b6 0066 b600 6212 77b6
+    0000110: 0062 b600 7ab6 0041 120e 1100 1cb8 0014
+    0000120: a7ff 6115 049b 0011 120e 1d15 0403 b800
+    0000130: 5311 ffff 3604 120e 1100 1db8 0014 1905
+    0000140: 127c b600 4112 0e11 001f b800 1419 05b6
+    0000150: 007f 120e 1100 20b8 0014 b1            
+  Stackmap Table:
+    append_frame(@129,Object[#49],Object[#69],Object[#75])
+    chop_frame(@318,1)
+" type="java.lang.VerifyError">java.lang.VerifyError: Instruction type does not match stack map
+Exception Details:
+  Location:
+    com/crud/crudservlet/ViewServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V @129: aload
+  Reason:
+    Type integer (current frame, locals[3]) is not assignable to &apos;java/io/PrintWriter&apos; (stack map, locals[3])
+  Current Frame:
+    bci: @129
+    flags: { }
+    locals: { &apos;com/crud/crudservlet/ViewServlet&apos;, &apos;javax/servlet/http/HttpServletRequest&apos;, &apos;javax/servlet/http/HttpServletResponse&apos;, integer, integer, &apos;java/io/PrintWriter&apos;, &apos;java/util/List&apos;, &apos;java/util/Iterator&apos; }
+    stack: { }
+  Stackmap Frame:
+    bci: @129
+    flags: { }
+    locals: { &apos;com/crud/crudservlet/ViewServlet&apos;, &apos;javax/servlet/http/HttpServletRequest&apos;, &apos;javax/servlet/http/HttpServletResponse&apos;, &apos;java/io/PrintWriter&apos;, &apos;java/util/List&apos;, &apos;java/util/Iterator&apos; }
+    stack: { }
+  Bytecode:
+    0000000: 033e 11ff ff36 0412 0e11 0011 b800 142c
+    0000010: 1223 b900 2902 0012 0e11 0012 b800 142c
+    0000020: b900 2d01 003a 0512 0e11 0013 b800 1419
+    0000030: 0512 2fb6 0034 120e 1100 14b8 0014 1905
+    0000040: 1236 b600 3412 0e11 0016 b800 14b8 003c
+    0000050: 3a06 120e 1100 18b8 0014 1905 123e b600
+    0000060: 4112 0e11 0019 b800 1419 0512 43b6 0041
+    0000070: 120e 1100 1ab8 0014 1906 b900 4901 003a
+    0000080: 0719 07b9 004f 0100 1100 1a3e 1100 0036
+    0000090: 0499 0092 120e 1d15 0404 b800 5311 ffff
+    00000a0: 3604 1907 b900 5701 00c0 0059 3a08 120e
+    00000b0: 1100 1bb8 0014 1905 bb00 5b59 b700 5c12
+    00000c0: 5eb6 0062 1908 b600 66b6 0062 1268 b600
+    00000d0: 6219 08b6 006b b600 6212 68b6 0062 1908
+    00000e0: b600 6eb6 0062 1268 b600 6219 08b6 0071
+    00000f0: b600 6212 73b6 0062 1908 b600 66b6 0062
+    0000100: 1275 b600 6219 08b6 0066 b600 6212 77b6
+    0000110: 0062 b600 7ab6 0041 120e 1100 1cb8 0014
+    0000120: a7ff 6115 049b 0011 120e 1d15 0403 b800
+    0000130: 5311 ffff 3604 120e 1100 1db8 0014 1905
+    0000140: 127c b600 4112 0e11 001f b800 1419 05b6
+    0000150: 007f 120e 1100 20b8 0014 b1            
+  Stackmap Table:
+    append_frame(@129,Object[#49],Object[#69],Object[#75])
+    chop_frame(@318,1)
+
+	at com.crud.crudservlet.ViewServletTest.testDoGet(ViewServletTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-out>doGet
+</system-out>
+  </testcase>
+</testsuite>

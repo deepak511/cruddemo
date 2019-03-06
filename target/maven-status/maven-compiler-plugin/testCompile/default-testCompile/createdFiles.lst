@@ -1,0 +1,8 @@
+com\crud\crudservlet\TitleDaoTest.class
+com\crud\crudservlet\EditServlet2Test.class
+com\crud\crudservlet\TitleTest.class
+com\crud\crudservlet\ViewServletTest.class
+com\crud\crudservlet\SaveServletTest.class
+com\crud\crudservlet\DeleteServletTest.class
+com\crud\crudoperation\AppTest.class
+com\crud\crudservlet\EditServletTest.class
